@@ -85,7 +85,8 @@ public class Main
         var wanted = service.findStudentByName(name);
         if (wanted == null)
             System.out.println("Nie znaleziono...");
-        else {
+        else 
+        {
             System.out.println("Znaleziono: ");
             System.out.println(wanted.toString());
         }
